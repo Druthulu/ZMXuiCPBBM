@@ -14,6 +14,7 @@
 <!--	// SMX // Player Dropped Backpack Size Conversion -->
 
 		<!-- SMX COMMENT: Adding more slots means we need to add more room in the bag that the player drops upon death. (Minimum: BagSize + 20) -->
-		<set xpath="/lootcontainers/lootcontainer[@id='2']/@size">11,11</set>			<!-- SMX COMMENT: Adjusts from 70 SLOTS to 121 SLOTS -->
+		<!-- Durthulu: updated lootcontainer refference for A21 -->
+		<set xpath="/lootcontainers/lootcontainer[@name='playerBackpack']/@size">11,11</set>			<!-- SMX COMMENT: Adjusts from 70 SLOTS to 121 SLOTS -->
 
 </ZMXuiCPBBM>
